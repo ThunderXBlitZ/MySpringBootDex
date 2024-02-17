@@ -1,5 +1,5 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Spring Boot Dex
+description: A modern glossary for Spring Boot / Spring annotations.
 theme: just-the-docs
 
 # baseurl: "/MySpringBootDex"
@@ -88,7 +88,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "MySpringBootDex on GitHub":
+  "SpringBootDex on GitHub":
     - "https://github.com/ThunderXBlitZ/MySpringBootDex"
 
 # Makes Aux links open in a new tab. Default is false
@@ -100,7 +100,7 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: Just the Docs on GitHub
+  - title: External Link Example
     url: https://github.com/just-the-docs/just-the-docs
 
 # Footer content
