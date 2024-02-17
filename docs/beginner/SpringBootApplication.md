@@ -1,9 +1,16 @@
 ---
 title: "@SpringBootApplication"
-layout: default
+layout: default_with_tags
 parent: Beginner
+tags:
+- beginner
+- springboot
 ---
 
+{% for tag in page.tags %}
+{{tag}}
+{: .label }
+{% endfor %}
 
 ### About
 
