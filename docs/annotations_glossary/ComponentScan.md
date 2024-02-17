@@ -1,7 +1,7 @@
 ---
-title: "@SpringBootApplication"
+title: "@ComponentScan"
 layout: default
-parent: Beginner
+parent: "@Annotations"
 ---
 
 
