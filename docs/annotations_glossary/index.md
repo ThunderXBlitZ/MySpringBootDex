@@ -1,6 +1,6 @@
 ---
 title: "@Annotations"
-layout: default
+layout: mydefault
 nav_order: 999
 has_children: true
 ---
