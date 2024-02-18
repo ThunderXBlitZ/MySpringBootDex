@@ -1,6 +1,6 @@
 ---
 title: "@ComponentScan"
-layout: default
+layout: mydefault
 parent: "@Annotations"
 ---
 

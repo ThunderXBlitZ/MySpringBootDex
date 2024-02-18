@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/assets/css/tag_label.css">
+
+{% if page.tags.size > 0 %}
+<br>
+{% for tag in page.tags %}
+<a class="tag_label" a>{{tag}}</a>
+<!--href="/tag/{{tag}}"-->
+{% endfor %}
+<br>
+<br>
+{% endif %}
+
+{{ content }}
