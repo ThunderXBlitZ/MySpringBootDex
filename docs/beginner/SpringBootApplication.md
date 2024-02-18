@@ -9,7 +9,7 @@ tags:
 
 ### About
 
-Placed on the main class of a Spring Boot application. 
+Placed on the main class of a Spring Boot application. {% glossary a_term_name, display: a_term_names %}
 
 ### Details
 
