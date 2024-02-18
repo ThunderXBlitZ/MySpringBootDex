@@ -9,7 +9,7 @@ tags:
 
 ### About
 
-Placed on the main class of a Spring Boot application. {% glossary a_term_name, display: a_term_names %}
+Placed on the main class of a Spring Boot application. <a href="{{ site.baseurl }}{% link docs/annotations_glossary/ComponentScan.md %}">{% glossary a_term_name %}</a>
 
 ### Details
 

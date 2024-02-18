@@ -1,5 +1,6 @@
 - term: a_term_name           # Can contain spaces
   definition: A description of the term
-  # url: https://jekyllrb.com/  # Is optional
+  # url: >
+  #   {{ site.baseurl }}{% link docs/annotations_glossary/ComponentScan.md %}
 - term: another term
   definition: Some other term definition text
