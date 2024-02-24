@@ -2,6 +2,7 @@
 title: "@ComponentScan"
 layout: mydefault
 parent: "@Annotations"
+tags:
 ---
 
 

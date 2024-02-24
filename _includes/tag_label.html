@@ -3,8 +3,7 @@
 {% if page.tags.size > 0 %}
 <br>
 {% for tag in page.tags %}
-<a class="tag_label" a>{{tag}}</a>
-<!--href="/tag/{{tag}}"-->
+<a class="tag_label" href="/tag/{{tag}}">{{tag}}</a>
 {% endfor %}
 <br>
 <br>
