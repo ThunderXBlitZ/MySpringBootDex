@@ -1,9 +1,12 @@
 import glob
-import re
+
 from typing import List, Dict
 import os
 
+from utils import extract_about_text
+
 import frontmatter
+
 
 post_dir = 'docs/'
 draft_dir = '_drafts/'
@@ -53,17 +56,6 @@ def parse_md(filepath:str) -> Dict:
         else:
             payload = {}
     return payload
-
-def extract_about_text(text: str) -> str:
-    ''' Extract text in ### About section of md file '''
-
-    text = text.replace('\n', '')
-    pattern = re.compile(r'###\sAbout(.*?)\s*###', re.DOTALL)
-    matches = pattern.findall(text)
-    if len(matches) >= 1:
-        return matches[0].strip()
-    else:
-        return None
 
 def merge_dictionaries(dict1: Dict, dict2: Dict) -> Dict:
     ''' Aggregate dictionary, with values into lists '''
