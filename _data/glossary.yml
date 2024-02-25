@@ -1,9 +1,6 @@
-- definition: A description of the term
-  term: a_term_name
-  url: /docs/annotations_glossary/ComponentScan
 - definition: Placed on the main class of a Spring Boot application.
   term: '@SpringBootApplication'
-  url: /docs/beginner/SpringBootApplication
+  url: /MySpringBootDex/docs/beginner/SpringBootApplication
 - definition: Testing
   term: '@ComponentScan'
-  url: /docs/annotations_glossary/ComponentScan
+  url: /MySpringBootDex/docs/annotations_glossary/ComponentScan
