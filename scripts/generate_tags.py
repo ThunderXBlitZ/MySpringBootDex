@@ -9,6 +9,7 @@ from utils import extract_about_text
 
 import frontmatter
 
+base_url = "/MySpringBootDex"
 
 post_dir = 'docs/'
 draft_dir = '_drafts/'
@@ -52,9 +53,9 @@ def parse_md(filepath:str) -> Dict:
         tags = metadata.get('tags')
         if tags:
             title = metadata.get('title')
-            relative_url = '/' + filepath.split('.')[0]
+            relative_url = base_url + '/' + filepath.split('.')[0]
             about = extract_about_text(content)
-            payload = {tag: {"about": about, "relative_url": relative_url} for tag in tags}
+            payload = {tag: {"title": title, "about": about, "relative_url": relative_url} for tag in tags}
         else:
             payload = {}
     return payload
@@ -94,7 +95,7 @@ def generate_tag_pages(tags:List[Dict]) -> None:
         write_str += "<div><ul>\n"
         for payload in payloads:
             write_str += "\t<li>\n"
-            write_str += f"\t\t<a href=\'{payload.get('relative_url')}\'>{tag}</a>\n"
+            write_str += f"\t\t<a href=\'{payload.get('relative_url')}\'>{payload.get('title')}</a>\n"
             write_str += f"\t\t<p>{payload.get('about')}</p>\n"
             write_str += "\t</li>\n"
         write_str += "</ul></div>"
