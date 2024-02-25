@@ -57,8 +57,8 @@ jobs:
           git config user.email ${{ secrets.EMAIL }}
           git add **/*.md
           git add **/*.yml
-          git commit -m "github action commit: update tag pages and glossary"
-          git push
+          git commit -m "github action commit: update tag pages and glossary" || echo "No changes to commit"
+          git push || echo "No commits to push"
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
