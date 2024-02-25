@@ -1,7 +1,4 @@
-# all pages -> about goes into glossary as key value pair
-    # page title : about
-# manual glossary + generated glossary = final glossary
-# github action to generate generated and final glossary and commit
+""" Read .md files with `@Annotation` titles, and generate a glossary.yml file """
 
 import glob
 import re

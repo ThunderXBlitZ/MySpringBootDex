@@ -1,3 +1,5 @@
+""" Reads pages (and draft) .md files and generates tagpage .md files """
+
 import glob
 
 from typing import List, Dict
