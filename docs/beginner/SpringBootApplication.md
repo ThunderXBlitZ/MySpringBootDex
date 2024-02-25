@@ -9,7 +9,7 @@ tags:
 
 ### About
 
-Placed on the main class of a Spring Boot application. {% glossary @SpringBootApplication %}
+Placed on the main class of a Spring Boot application.
 
 ### Details
 
@@ -19,7 +19,7 @@ A convenient shortcut annotation that encapsulates several other annotations.
 
 - `@EnableAutoConfiguration`: automatically configure your Spring application based on the dependencies and other configuration settings
 
-- `@ComponentScan`: scan and discover other Spring components/beans in the specified package(s).
+- `@ComponentScan`: scan and discover other Spring components/beans in the specified package(s). {% glossary @ComponentScan %}
 
 ### Example
 
