@@ -1,6 +1,9 @@
-- term: a_term_name           # Can contain spaces
-  definition: A description of the term
-  # url: >
-  #   {{ site.baseurl }}{% link docs/annotations_glossary/ComponentScan.md %}
-- term: another term
-  definition: Some other term definition text
+- definition: A description of the term
+  term: a_term_name
+  url: /docs/annotations_glossary/ComponentScan
+- definition: Placed on the main class of a Spring Boot application.
+  term: '@SpringBootApplication'
+  url: /docs/beginner/SpringBootApplication
+- definition: Testing
+  term: '@ComponentScan'
+  url: /docs/annotations_glossary/ComponentScan
