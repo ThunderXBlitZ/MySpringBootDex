@@ -1,9 +1,9 @@
 .tag_label {
     border-radius: 12px;
     padding: 0.16em 0.56em;
-    color:white;
+    color:#DC143C;
     vertical-align: middle;
     text-transform: uppercase;
     vertical-align: middle;
-    border: 2px solid #ffffff;
+    border: 2px solid #DC143C;
 } 
