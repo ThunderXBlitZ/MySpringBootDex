@@ -1,6 +1,6 @@
-- definition: Placed on the main class of a Spring Boot application.
-  term: '@SpringBootApplication'
-  url: /MySpringBootDex/docs/beginner/SpringBootApplication
 - definition: Testing
   term: '@ComponentScan'
   url: /MySpringBootDex/docs/annotations_glossary/ComponentScan
+- definition: Placed on the main class of a Spring Boot application.
+  term: '@SpringBootApplication'
+  url: /MySpringBootDex/docs/beginner/SpringBootApplication
