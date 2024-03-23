@@ -1,0 +1,87 @@
+.toggle {
+    background-color: #607d8b;
+    color: #607d8b;
+    visibility: hidden;
+}
+
+.toggle_label {
+    position: relative;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    width: 64px;
+    height: 30px;
+    background-color: #e6e1e8;
+    border-radius: 30px;
+}
+
+.slider {
+    bottom: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    border: 3px solid white;
+    content: "";
+    height: 18px;
+    width: 18px;
+    right: 10px;
+    left: 3px;
+    top: 3px;
+    position: absolute;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+.slider i {
+    position: absolute;
+    display: inline-block;
+    font-size: 9px;
+    color: #fff;
+    transition: opacity 0.4s;
+}
+
+.moon {
+    top: 14px;
+    left: 12px;
+}
+
+.sun {
+    top: 14px;
+    right: 10px;
+    opacity: 0;
+}
+
+input:checked+.slider {
+    background-color: #302d36;
+    /* background-color: #9ae6ff */;
+}
+
+input:checked+.slider:before {
+    border-color: #2c84fa;
+    transform: translateX(34px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.toggle:checked+.slider .moon {
+    opacity: 0;
+}
+
+.toggle:checked+.slider .sun {
+    opacity: 1;
+    color: #2c84fa;
+}
