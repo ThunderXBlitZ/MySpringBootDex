@@ -4,7 +4,7 @@ const changeTheme = document.getElementById('mode');
 const mode = window.localStorage.getItem('mode');
 if (mode == 'dark') {
   changeTheme.checked = true;
-  jtd.setTheme("dark");
+  jtd.setTheme("mydarktheme");
 }
 
 if (mode == 'light') {
@@ -16,7 +16,7 @@ if (mode == 'light') {
 const theme = document.getElementById('theme');
 changeTheme.onchange = (e) => {
   if (changeTheme.checked === true) {
-    jtd.setTheme("dark")
+    jtd.setTheme("mydarktheme")
     window.localStorage.setItem('mode', 'dark');
   } else {
     jtd.setTheme("mytheme")
