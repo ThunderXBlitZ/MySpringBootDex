@@ -2,6 +2,7 @@
 title: "@SpringBootApplication"
 layout: mydefault
 parent: Beginner
+nav_order: 2
 tags:
 - beginner
 - springboot

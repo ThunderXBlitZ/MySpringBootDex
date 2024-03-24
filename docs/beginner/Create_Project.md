@@ -2,6 +2,7 @@
 title: "Create Project"
 layout: mydefault
 parent: Beginner
+nav_order: 1
 tags:
 - beginner
 - springboot
