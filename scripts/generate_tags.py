@@ -92,7 +92,7 @@ def generate_tag_pages(tags:List[Dict]) -> None:
         f = open(tag_filename, 'a')
         write_str = '---\nlayout: mydefault\ntitle: \"Tag: ' + tag + '"\nparent: "Tags"\n' + '\nrobots: noindex\n---\n'
         write_str += f"<h2>Tag: {tag}</h2>"
-        write_str += "<div><ul>\n"
+        write_str += "<div style='margin-top:1rem'><ul>\n"
         for payload in payloads:
             write_str += "\t<li>\n"
             write_str += f"\t\t<a href=\'{payload.get('relative_url')}\'>{payload.get('title')}</a>\n"
