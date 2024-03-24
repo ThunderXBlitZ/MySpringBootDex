@@ -38,5 +38,11 @@ public class MyApplication {
 }
 ```
 
+### Output
+The project should successfully terminate with a log similar to:
+```
+com.example.demo.MyApplication         : Started MyApplication in 0.757 seconds
+```
+
 ### Resources
 - Official documentation
