@@ -12,7 +12,9 @@ tags:
 
 Visit [Spring Initializr](https://start.spring.io/) to generate your boilerplate source code
 
-![Spring Initializr UI]({{site.baseurl}}/assets/images/docs/beginner/create_project/spring_initializr.png)
+![Spring Initializr UI]({{site.baseurl}}/assets/images/docs/beginner/create_project/spring_initializr.png){: width="1200" }
+
+<br>
 
 Make sure you have a suitable version of [JDK](https://www.oracle.com/sg/java/technologies/downloads/) installed e.g. 22
 
@@ -46,7 +48,9 @@ Artifact: my-spring-boot-app (you can choose any name)
 > 
 > - Notice the section 'Dependencies' on the right, you may add required dependencies e.g. Spring Security in the future. The dependency modules provide various powerful, battle-tested boilerplate code for setting up a web application, security practices, dev tools, which is one of the key strengths of the Spring Ecosystem.
 
-![Spring Dependencies UI]({{site.baseurl}}/assets/images/docs/beginner/create_project/spring_dependencies.png)
+![Spring Dependencies UI]({{site.baseurl}}/assets/images/docs/beginner/create_project/spring_dependencies.png){: width="600" }
+
+<br>
 
 <br>
 
