@@ -65,7 +65,7 @@ input:checked+.slider {
 }
 
 input:checked+.slider:before {
-    border-color: #2c84fa;
+    border-color: #959396;
     transform: translateX(34px);
 }
 
@@ -83,5 +83,5 @@ input:checked+.slider:before {
 
 .toggle:checked+.slider .sun {
     opacity: 1;
-    color: #2c84fa;
+    color: #959396;
 }
